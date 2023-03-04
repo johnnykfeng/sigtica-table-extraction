@@ -1,0 +1,4 @@
+cell_images/
+.vscode/
+*.json
+*.csv
