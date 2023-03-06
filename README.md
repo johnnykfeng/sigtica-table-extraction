@@ -2,14 +2,6 @@
 > Report of this project is posted in 
 > [_Medium_](https://johnfengphd.medium.com/table-extraction-with-pre-trained-ml-model-f638dfd4bdb7). <!-- If you have the project hosted somewhere, include the link here. -->
 
-- [Table Extraction with Machine Learning](#table-extraction-with-machine-learning)
-  - [Introduction](#introduction)
-  - [How to use](#how-to-use)
-  - [Project Status](#project-status)
-  - [Future developments:](#future-developments)
-  - [Resources](#resources)
-  - [Contact](#contact)
-
 
 ![Example screenshot](header_te.png)
 
@@ -42,7 +34,7 @@ First, clone the repo into your local machine.<br>
 I recommend you create a virtual python environment with Python versions 3.7 - 3.9 (for PyTorch compatibility). I typically do this on VS-Code by typing this on the terminal.<br>
 `python3.9 -m venv venv`
 
-To install all the necessary Python packages into your new Python environment.<br>
+Install all the necessary Python packages into your new Python environment.<br>
 `pip install -r requirements.txt`
 
 Get your own Google Cloud Vision API key as a .json file.<br>
@@ -51,12 +43,11 @@ Here's a tutorial: https://www.youtube.com/watch?v=TTeVtJNWdmI
 Test the code by running `run_TableExtractor.py` or equivalent `.ipynb` file. It should apply the Table Extractor on the sample images provided in this repo.
 
 ## Project Status
-This project is now useable. Incrementally improvements shoud be made in a separate branch.
+This project is now useable. Any changes or improvements shoud be made in a separate branch.
 
 ## Future developments:
 - Figure out how to run table extraction in parallel
 - Implement header structures properly into dataframe
-- Measure performance on well-known datasets such as ICDAR 2019
 - Further training the model via transfer learning
 - Deploying this model onto a web app
 
