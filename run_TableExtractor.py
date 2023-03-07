@@ -26,7 +26,10 @@ for filename, file_path in zip(filenames, file_list):
     print('File path: {}'.format(file_path))
      
     cell_img_dir = r".\cell_images"
-    df_list = te.run_extraction(file_path, cell_img_dir = cell_img_dir, TD_THRESHOLD=0.95, TSR_THRESHOLD=0.8, show_plots=False)
+    df_list = te.run_extraction(file_path, cell_img_dir = cell_img_dir, 
+                                TD_THRESHOLD=0.5, 
+                                TSR_THRESHOLD=0.8, 
+                                show_plots=True)
     
     if (df_list is not None):
         print('Number of tables in image: {}'.format(len(df_list)))

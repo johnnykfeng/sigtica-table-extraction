@@ -73,7 +73,7 @@ def uniquify(seq, suffs = count(1)):
 
 def table_detector(image, THRESHOLD_PROBA):
     '''
-    Table detection using DEtect-object TRansformer pre-trained on 1 million tables
+    Table detection using pre-trained Detect-object TRansformer 
 
     '''
 
