@@ -28,18 +28,18 @@ List the ready features here:
 
 
 ## How to use
-First, clone the repo into your local machine.<br>
+1. First, clone the repo into your local machine.<br>
 `git clone https://github.com/johnnykfeng/sigtica-table-extraction.git`
 
-I recommend you create a virtual python environment with Python versions 3.7 - 3.9 (for PyTorch compatibility). I typically do this on VS-Code by typing `python3.9 -m venv venv` on the terminal.<br>
+2. I recommend you create a virtual python environment with Python versions 3.7 - 3.9 (for PyTorch compatibility). I typically do this on VS-Code by typing `python3.9 -m venv venv` on the terminal.<br>
 
 
-Install all the necessary Python packages into your new Python environment.<br>
+3. Install all the necessary Python packages into your new Python environment.<br>
 `pip install -r requirements.txt`
 
-Get your own Google Cloud Vision API key as a .json file and upload it in the repo. Direct the .json file to the `CREDENTIALS` variable in `TableExtracion.py`. Here's a tutorial for getting the API key: https://www.youtube.com/watch?v=TTeVtJNWdmI.
+4. Get your own Google Cloud Vision API key as a .json file and upload it in the repo. Direct the .json file to the `CREDENTIALS` variable in `TableExtracion.py`. Here's a tutorial for getting the API key: https://www.youtube.com/watch?v=TTeVtJNWdmI.
 
-Test the code by running `run_TableExtractor.py` or equivalent `.ipynb` file. It should apply the Table Extractor on the sample images provided in this repo.
+5. Test the code by running `run_TableExtractor.py` or equivalent `.ipynb` file. It should apply the Table Extractor on the sample images provided in this repo.
 
 ## Project Status
 This project is now useable. Any changes or improvements shoud be made in a separate branch.
